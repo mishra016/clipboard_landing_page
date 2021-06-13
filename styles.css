@@ -218,12 +218,12 @@ li{
 }
 
 .social__links {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
-.social__links i {
+.social__links li {
+  display: inline;
   margin-right: 20px;
-  margin-top: 20px;
 }
 
 .social__links i:hover {
@@ -373,7 +373,7 @@ li{
     height: 650px;
   }
 
-  .footer__desc, .footer__1, .footer__2, .container {
+  .footer__desc,.footer__1, .footer__2, .container {
     display: flex;
     flex-direction: column;
     justify-content: center;

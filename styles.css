@@ -226,12 +226,6 @@ li{
   margin-right: 20px;
 }
 
-.social__links i:hover {
-  color: hsl(171, 66%, 44%);
-  transition: 0.3s ease-in-out;
-}
-
-
 .attribution {
   font-size: 11px;
   text-align: center;

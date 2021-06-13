@@ -1,0 +1,392 @@
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Bai Jamjuree" ;
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+  text-align: center;
+  background: url("images/bg-header-desktop.png") no-repeat;
+  background-size: contain;
+}
+
+p{
+  align-content: center;
+  margin: auto auto 10px auto;
+  line-height: 35px;
+  font-size: 14px;
+}
+
+h1{
+  font-size: 35px;
+}
+
+h1,h2,h3{
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/***header section***/
+
+#header img{
+  width: 4%;
+  margin-top: 50px;
+}
+
+#header p{
+  width: 32.5%;
+  margin: auto;
+}
+
+/***buttons***/
+
+button{
+  border-radius: 50px;
+  border: transparent;
+  color: white;
+  font-family: "Bai Jamjuree";
+  font-weight: 600;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 14px;
+  margin: 40px 2px 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac{
+  background-color: hsl(233, 100%, 69%);
+}
+
+.ios:hover, .mac:hover {opacity: 0.6}
+
+#snippets{
+  padding: 40px;
+  width: 35%;
+  margin: auto;
+}
+
+/*features section *****/
+
+#features img{
+  width: 500px;
+  height: 400px;
+}
+
+#features{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.side-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  max-width: 300px;
+  margin: 20px 0 0 0;
+}
+
+.side-text h3, .side-text p{
+  text-align: left;
+}
+
+.one, .two{
+  margin-bottom: 20px;
+}
+
+/*clipboard section *****/
+
+.clip{
+  width: 34%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.devices{
+  width: 800px;
+  margin: 50px 0;
+}
+
+/*use section *****/
+
+
+#use {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#use h3{
+  margin: 20px 0;
+}
+
+.desc {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/*brands section*****/
+
+#brands_desc{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+/**downloads**/
+
+#downloads{
+  padding: 40px;
+}
+
+#downloads h2, #downloads p{
+  width: 38%;
+  margin: auto;
+}
+
+/***end section**/
+
+#footer{
+  background-color: rgba(169, 169, 169, 0.212);
+  height: 250px;
+}
+
+.footer__desc{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot__img img{
+  width: 80px;
+  height: 80px;
+  margin-top: 30px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+
+.footer__1 {
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+li{
+  list-style-type: none;
+  margin: 20px;
+}
+
+.footer__1 li a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  cursor: pointer;
+}
+
+.footer__2 {
+  display: flex;
+}
+
+.footer__2 li a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  cursor: pointer;
+}
+
+.footer__1 li a:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.footer__2 li a:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.social__links {
+  margin-top: 30px;
+}
+
+.social__links i {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.social__links i:hover {
+  color: hsl(171, 66%, 44%);
+  transition: 0.3s ease-in-out;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 860px)  {
+
+  body{
+    background: url("images/bg-header-mobile.png")no-repeat;
+    background-size: contain;
+  }
+
+  p{
+    line-height: 30px;
+  }
+
+  #header{
+    padding: 20px;
+  }
+
+  #header img{
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+   #header h1{
+    width: 350px;
+    margin: auto;
+  }
+
+  #header p{
+    width: 275px;
+    margin: 20px  auto;
+  }
+
+   button{
+    width: 100%;
+    margin: 6px;
+  }
+
+  #snippets{
+    width: 275px;
+    margin: auto;
+  }
+
+  #features img{
+    margin: auto;
+  }
+
+  #features{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-text{
+    align-items: center;
+    max-width: 275px;
+    margin: 30px auto;
+  }
+
+  .side-text h3, .side-text p{
+    text-align: center;
+  }
+
+  .clip{
+    width: 275px;
+  }
+
+  .devices{
+    width: 600px
+  }
+
+  #workflow{
+    width: 275px;
+    margin: auto;
+  }
+
+  #brands_desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .companies{
+    width: 200px;
+    margin: 40px auto;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #downloads{
+    padding: 20px;
+  }
+
+  #downloads h2, #downloads p{
+    width: 275px;
+    margin: auto;
+  }
+
+}
+
+@media (max-width: 650px){
+  #features img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .devices{
+    width: 350px;
+  }
+
+  #use{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+  }
+
+  .desc{
+    max-width: none;
+  }
+
+  .desc p{
+    width: 275px;
+  }
+
+}
+
+@media (max-width: 400px){
+  #footer{
+    background-color: rgba(169, 169, 169, 0.212);
+    height: 650px;
+  }
+
+  .footer__desc, .footer__1, .footer__2, .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+
+  .footer__1 li a, .footer__2 li a {
+    margin: 0;
+  }
+
+  .social__links {
+    margin-left: 20px;
+  }
+
+}
